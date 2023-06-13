@@ -8,6 +8,8 @@ body{
 
 .container{
 
+    border-radius: 25px;
+
     background-color: burlywood;
     height: 400px;
     width: 600px;
@@ -17,10 +19,31 @@ body{
     justify-content: center;
 }
 
-.dates{
-
+input{ 
+    height: 25px;
+    margin: 0px 25px;
+    width: 200px;
+    padding: 8px;
+    font-size: large;
+    border-radius: 25px;
 }
 
 #check{
     margin-top: 20px;
+    padding: 10px;
+    width: 100px;
+    border-radius: 25px;
+}
+
+#check:hover{
+    background-color: cadetblue;
+    cursor: pointer;
+}
+
+p{
+    background-color: #a28663;
+    padding: 8px;
+    border-radius: 25px;
+    font-size: large;
+    outline: none;
 }
